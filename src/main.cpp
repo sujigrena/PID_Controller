@@ -34,7 +34,8 @@ int main()
 
   PID pid;
   // TODO: Initialize the pid variable.
-  pid.Init(0.1,0.01,2); //working well on linux
+  //pid.Init(0.3, 0.0001, 3.2);
+  pid.Init(0.21,0.00401,2.99); //working well on linux//0.3,0.0001,3.25
   //pid.Init(0.1,0.01,2); //throttle 0.3
   //pid.Init(0.1,0.01,2.5); //throttle 0.3
 
